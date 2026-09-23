@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://b3snksjc5rcdt"]
+
+[ext_resource type="Texture2D" uid="uid://c78qxhob1jhmq" path="res://Pictures/Squid 2.png" id="1_xvfyx"]
+[ext_resource type="Texture2D" uid="uid://djfwdwqrf2n7i" path="res://Pictures/83097-art-splatoon-photography-squid-monochrome-line.png" id="2_6wx24"]
+[ext_resource type="PackedScene" uid="uid://bpvhjme8n126j" path="res://Scenes/tree_1.tscn" id="3_ktn1t"]
+[ext_resource type="PackedScene" uid="uid://bu4y8upxmhtdy" path="res://Scenes/tree_2.tscn" id="4_ty4e1"]
+[ext_resource type="Texture2D" uid="uid://b8djxtbqh7yus" path="res://Pictures/rocks.png" id="5_6wx24"]
+
+[node name="Node2D" type="Node2D" unique_id=343876301]
+position = Vector2(2, 2)
+
+[node name="Squid2" type="Sprite2D" parent="." unique_id=802397501]
+position = Vector2(214, 321)
+rotation = 0.6981317
+scale = Vector2(0.121921435, 0.12518933)
+texture = ExtResource("1_xvfyx")
+
+[node name="Squid 1" type="Sprite2D" parent="." unique_id=442892347]
+top_level = true
+position = Vector2(448.00006, 528.00006)
+rotation = -0.5794493
+scale = Vector2(0.40562576, 0.39218256)
+texture = ExtResource("2_6wx24")
+
+[node name="Tree 1" parent="." unique_id=147205828 instance=ExtResource("3_ktn1t")]
+offset_left = 97.0
+offset_top = 465.0
+offset_right = 180.0
+offset_bottom = 644.0
+
+[node name="Tree 2" parent="." unique_id=234804093 instance=ExtResource("4_ty4e1")]
+offset_left = 581.0
+offset_top = 320.0
+offset_right = 728.0
+offset_bottom = 645.0
+
+[node name="Rocks" type="Sprite2D" parent="." unique_id=1636377900]
+position = Vector2(279, 591)
+scale = Vector2(0.21285714, 0.20321435)
+texture = ExtResource("5_6wx24")
+
+[node name="Rocks2" type="Sprite2D" parent="." unique_id=1955047224]
+position = Vector2(865.12506, 556.25)
+scale = Vector2(0.38249993, 0.28357142)
+texture = ExtResource("5_6wx24")
+
+[node name="Rocks3" type="Sprite2D" parent="Rocks2" unique_id=679640430]
+show_behind_parent = true
+position = Vector2(161.7644, -212.4685)
+rotation = 0.37350047
+scale = Vector2(0.6834735, 0.58690184)
+texture = ExtResource("5_6wx24")
+
+[node name="Rocks4" type="Sprite2D" parent="Rocks2/Rocks3" unique_id=1477807952]
+position = Vector2(248.63965, -42.485107)
+rotation = -0.42814696
+scale = Vector2(1.2191732, 2.883844)
+skew = 0.10352874
+texture = ExtResource("5_6wx24")

@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bu4y8upxmhtdy"]
+
+[node name="Tree 2" type="ColorRect" unique_id=234804093]
+offset_left = 592.0
+offset_top = 322.0
+offset_right = 739.0
+offset_bottom = 647.0
+color = Color(0.1395638, 0.02125686, 9.024516e-09, 1)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1137235692]
+layout_mode = 0
+offset_left = -181.0
+offset_top = -45.0
+offset_right = 237.0
+offset_bottom = 64.0
+color = Color(0.06666667, 0.17254902, 0.03137255, 1)
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect" unique_id=1087238633]
+layout_mode = 0
+offset_left = 101.0
+offset_top = -120.0
+offset_right = 388.0
+offset_bottom = 8.0
+color = Color(0.06666667, 0.17254902, 0.03137255, 1)
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect/ColorRect" unique_id=1406757075]
+layout_mode = 0
+offset_left = 49.0
+offset_top = -110.0
+offset_right = 179.0
+offset_bottom = 10.0
+color = Color(0.06666667, 0.17254902, 0.03137255, 1)
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect/ColorRect/ColorRect" unique_id=1362555391]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 71.0
+offset_right = 188.0
+offset_bottom = 119.0
+color = Color(0.06666667, 0.17254902, 0.03137255, 1)
